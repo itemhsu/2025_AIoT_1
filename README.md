@@ -11,12 +11,39 @@ AIoT第一堂
   * H.264 硬體編碼器
 * 適用高效能、低功耗、多媒體與 IoT 應用
 
+### 無線通訊功能
+* 搭載 ESP32-C6-MINI-1U 模組
+* 用於 Wi-Fi 6 與 Bluetooth LE 通訊
+* 支援 USB 2.0 High-Speed Device Mode
 
-## 認識晶片  ESP32-P4-EYE 
-ESP32-P4-EYE是一款小型人工智慧開發板，配備了ESP32-S3晶片和ESP-WHO人工智慧開發框架。 該開發板擁有2百萬像素的攝影機、一個LCD顯示器、一個麥克風，以及8MB的八線PSRAM和8MB的flash存儲，非常適合於圖像識別和音頻處理等應用 (espressif)。
-#### 外觀
-<img width="188" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/b9614508-a8ab-4292-939e-a71ca91c49dc">
-<img width="162" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/36f3e026-77a8-4a8b-843d-d8be1b0d645f">
+### 板載硬體功能
+* MIPI-CSI 相機介面
+* 內建相機模組
+* 麥克風（音訊輸入）
+
+### MicroSD 卡擴充
+* 整合影像與音訊資料的擷取、儲存與即時處理能力
+
+## 應用場景
+ * 智慧安防攝影機
+ * 視覺模型推論 / 偵測
+ * IoT 邊緣運算
+ * 即時影像處理與無線傳輸設備
+
+## 外觀
+<img width="2591" height="2167" alt="image" src="https://github.com/user-attachments/assets/d200ffe2-41a3-45ca-84b1-8a7b22ac996a" />
+<img width="2209" height="1985" alt="image" src="https://github.com/user-attachments/assets/94f9e326-58f2-4869-8248-5b0be43d570b" />
+
+
+## 組件介紹
+<img width="898" height="556" alt="image" src="https://github.com/user-attachments/assets/10e2f4c5-47f6-4005-8a96-8d1dd86437e5" />
+<img width="817" height="635" alt="image" src="https://github.com/user-attachments/assets/6a21fe00-ec3f-4543-9c75-03f15c6e0d61" />
+<img width="948" height="549" alt="image" src="https://github.com/user-attachments/assets/4ccaccfb-b84d-4373-9ca2-c7b52da157aa" />
+<img width="827" height="644" alt="image" src="https://github.com/user-attachments/assets/2ba26bf0-5229-4c33-aca8-dd728e6a1b0f" />
+
+* 參考來源： https://documentation.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32p4/esp32-p4-eye/user_guide.html?title=ESP32-P4-EYE%20%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97#getting-started
+
+
 
 #### 上電
 USB 接上電腦之後就會啟動
