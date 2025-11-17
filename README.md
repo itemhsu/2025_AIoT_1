@@ -71,47 +71,23 @@ USB 接上電腦之後就會啟動
 
 ## 期末評分
 ### 現有的範例
+* https://github.com/espressif/esp-dev-kits.git
+  * examples/esp32-p4-eye  
+
 ```
-examples/
-├── cat_face_detection
-│   ├── lcd
-│   ├── README.rst
-│   ├── terminal
-│   └── web
-├── code_recognition
-│   ├── CMakeLists.txt
-│   ├── main
-│   ├── README.md
-│   ├── sdkconfig.defaults
-│   ├── sdkconfig.defaults.esp32
-│   ├── sdkconfig.defaults.esp32s2
-│   └── sdkconfig.defaults.esp32s3
-├── color_detection
-│   ├── lcd
-│   ├── README_CN.md
-│   └── README.md
-├── esp32-s3-eye
-│   ├── CMakeLists.txt
-│   ├── main
-│   ├── partitions.csv
-│   ├── README_CN.md
-│   ├── README.md
-│   └── sdkconfig.defaults
-├── human_face_detection
-│   ├── lcd
-│   ├── README.rst
-│   ├── terminal
-│   └── web
-├── human_face_recognition
-│   ├── lcd
-│   ├── README_CN.md
-│   ├── README.md
-│   └── terminal
-└── motion_detection
-    ├── lcd
-    ├── README.rst
-    ├── terminal
-    └── web
+├── examples
+│   ├── common_components
+│   │   └── esp32_p4_eye
+│   └── factory_demo
+│       ├── 0004-fix-sdmmc-aligned-write-buffer.patch
+│       ├── 0004-fix-spi-default-clock-source.patch
+│       ├── CMakeLists.txt
+│       ├── components
+│       ├── main
+│       ├── partitions.csv
+│       ├── README_CN.md
+│       ├── README.md
+│       └── sdkconfig.defaults
 ```
 ### 評分方式
 | 項目 | 分數 |
