@@ -54,9 +54,22 @@ USB 接上電腦之後就會亮綠燈（右下角）
 * 鏡頭蓋要拿開
 * 綠燈旁邊的IO開關，切換到I的位置
 * 此時螢幕會點亮
+* 此時為照相模式 Camera
 <img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/493d99fa-4045-4be0-9397-54d34e6eb944" />
 
-#### 影像顯示測試
+#### 模式切換
+* 按壓 ▼ 右側的按鈕 可以依序切換模式
+
+##### 定時拍照
+<img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/95294982-624a-4847-8f4b-89c6faecd9d0" />
+
+##### 錄影
+<img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/58ecb843-b4af-466a-a70f-25d5f1faa995" />
+
+##### 行人偵測
+<img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/2c8e0cd2-8850-4f7a-88f1-0bac3bb4d068" />
+
+影像顯示測試
 左上角按鈕按一下
 
 <img width="163" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/32fb46d2-7d8b-45c1-8963-3bc72777ec9c">
