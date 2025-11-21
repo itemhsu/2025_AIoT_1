@@ -133,7 +133,8 @@ ESP-EYE 可在 Linux、MacOs、Windows 作業系統中完成軟體燒寫。 目�
 <img width="331" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/7c7799d4-8784-418d-aafd-65d8c1684f92">
 
 #### Launch SageMaker Notebook
-* use "C4-XLarge", that has 4 cpus
+* use "ml.c5.xlarge", that has 4 cpus
+* 卷大小(以 GB 为单位) = 15GB
 #### Setting Sagemaker Enviroment
 * New a sagemaker terminal
 * Change directory: for future file operation
