@@ -46,9 +46,15 @@ AIoT第一堂
 
 
 #### 上電
-USB 接上電腦之後就會啟動
 
-<img width="170" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/b3d7389b-4874-40e2-8cff-1dbcf672bfc0">
+USB 接上電腦之後就會亮綠燈（右下角）
+<img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/ed298e3f-2ba4-4b5d-92e1-fb6ed99f8549" />
+
+#### 開機
+* 鏡頭蓋要拿開
+* 綠燈旁邊的IO開關，切換到I的位置
+* 此時螢幕會點亮
+<img width="1477" height="1108" alt="image" src="https://github.com/user-attachments/assets/493d99fa-4045-4be0-9397-54d34e6eb944" />
 
 #### 影像顯示測試
 左上角按鈕按一下
