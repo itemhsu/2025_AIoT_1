@@ -499,15 +499,15 @@ idf.py build
 ```
 esptool.py --chip esp32 -p /dev/tty.SLAB_USBtoUART  write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./hello_world.bin
 ```
-* esp32s3 燒錄指令可能看起來像這樣：
+* esp32p4 燒錄指令可能看起來像這樣：
 ```
-esptool.py --chip esp32s3 -p /dev/tty.usbmodem11301 erase_flash
-esptool.py --chip esp32s3 -p /dev/tty.usbmodem11301 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 40m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 hello_world.bin
+esptool.py --chip esp32p4 -p /dev/tty.usbmodem11301 erase_flash
+esptool.py --chip esp32p4 -p /dev/tty.usbmodem11301 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 40m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 hello_world.bin
 ```
 linux 
 ```
-esptool.py --chip esp32s3 -p /dev/ttyACM0 erase_flash
-esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 40m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 hello_world.bin
+esptool.py --chip esp32p4 -p /dev/ttyACM0 erase_flash
+esptool.py --chip esp32p4 -p /dev/ttyACM0 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 40m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 hello_world.bin
 
 ```
 #### 執行結果（minicom）
