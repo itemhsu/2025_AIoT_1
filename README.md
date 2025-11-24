@@ -1,4 +1,4 @@
-# AIoT_one
+# 2025_AIoT_1
 AIoT第一堂
 
 ## ESP32-P4-EYE 視覺開發板概要
