@@ -382,12 +382,22 @@ brew install pip
 ```
 pip install --user pyserial
 ```
+安裝燒錄工具 esptool:
+```
+pip install esptool
+```
+執行燒錄工具 esptool:
+```
+python3 -m esptool
+```
 
-安裝 CMake 和 Ninja 編譯工具：
+
+
+安裝 CMake 和 Ninja 編譯工具(optional)：
 ```
 brew install cmake ninja
 ```
-強烈建議同時安裝 ccache 以獲得更快的編譯速度。 
+強烈建議同時安裝 ccache 以獲得更快的編譯速度(optional)。 
 ```
 brew install ccache
 ```
