@@ -490,7 +490,7 @@ idf.py fullclean
 idf.py build
 ```
 注意構建後的燒錄指令
-
+* 使用 idf.py 工具設定晶片版本：
 <img width="1133" alt="image" src="https://github.com/itemhsu/AIoT_one/assets/25599185/65dba0ad-f191-46ef-8665-6b4b2c273061">
 <img width="686" height="235" alt="image" src="https://github.com/user-attachments/assets/d5f740a2-a7e8-490c-9b1f-2a83c91fd932" />
 <img width="578" height="222" alt="image" src="https://github.com/user-attachments/assets/f35c4567-6690-493a-ac97-a2ce3bb91f62" />
@@ -543,10 +543,12 @@ MacOS 確認rs232 通訊埠
 ```
 ls /dev/cu.*
 ```
-MacOS 確認rs232 通訊埠
+MacOS 燒錄
 ```
-python3 -m esptool -p /dev/cu.usbmodem1101 --chip esp32p4 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 80m 0x2000 ./bootloader.bin 0x8000 ./partition-table.bin 0x10000 ./hello_world.bin
+python3 -m esptool -p /dev/cu.usbmodem1101 --chip esp32p4 -b 115200 --no-stub --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 4MB --flash_freq 80m 0x2000 ./bootloader.bin 0x8000 ./partition-table.bin 0x10000 ./hello_world.bin
 ```
+* 115200 速度
+* -p /dev/cu.usbmodem1101 確認和你的系統一樣
 
 
 #### 執行結果（minicom）
